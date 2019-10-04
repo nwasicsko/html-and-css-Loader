@@ -1,0 +1,24 @@
+<style>
+  * {
+    margin: 0px;
+    padding:0px;
+  }
+  .loader{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+    border-left: 10px solid blue;
+    border-right: 10px solid green;
+    border-bottom: 10px solid yellow;
+    border-top: 10px solid red;
+    animation: 1s infinite spin;
+    width:60px;
+    height: 60px;
+    border-radius: 100px;
+  }
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+</style>
+<div class="loader"></div>
